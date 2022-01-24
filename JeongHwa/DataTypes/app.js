@@ -11,3 +11,16 @@
 "hello"
 "javascript"
 "Jeong"+"Hwa" //문자(string) + 문자 가능
+
+//boolean : 0, 1 => true, false
+const amIFat = false;
+console.log(amIFat);
+
+//null : 아무것도 없다. (0, false와는 다름 / 자연적으로 만들어지지 않음.)
+
+// undefined : 메모리는 할당되어있지만 값이 들어가있지 않은 상태
+let something;
+console(something); //undefined로 출력됨.
+
+
+
