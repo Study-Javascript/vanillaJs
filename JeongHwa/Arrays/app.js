@@ -49,6 +49,7 @@ console.log(player["name"]); //Gong
 player.handsome = false;
 player.points = player.points + 15; // 기존값 + 15로 업데이트
 console.log(player);
+player.pretty = "soon"; //item 추가
 //const는 수정이 불가능하지만 object를 수정하는 것은 가능하다
 //player = true => const를 수정하는것이므로 에러발생
 
