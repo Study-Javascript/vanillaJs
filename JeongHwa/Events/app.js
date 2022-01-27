@@ -1,6 +1,6 @@
 
 //class hello의 첫번째 h1을 찾아 출력
-const h1 = document.querySelector(".hello:first-child h1");
+const h1 = document.querySelector("div.hello:first-child h1");
 
 console.log(h1);
 
@@ -9,11 +9,26 @@ console.dir(h1);
 
 
 
-function handleTitleClick(){  
+/*function handleTitleClick(){  
     console.log("title was clicked!!");
     //title의 css 수정
     h1.style.color = "blue";
+}*/
+
+function handleTitleClick(){
+    const currentColor = h1.style.color;
+    let newColor; //수정가능한 변수 선언
+    if(currentColor === "blue") {
+        newColor = "tomato";
+    }else {
+        newColor = "blue";
+    }
+    h1.style.color = newColor;
 }
+ 
+h1.addEventListener("click", handleTitleClick); //handleTitleClick()이 아님!
+
+
 
 function handleMouseEnter(){
     h1.innerText = "Mouse is here!"
@@ -38,7 +53,7 @@ function handleWindowOffline(){
 function handleWindowOnline(){
     alert("ALL GOOOOOD!!");
 }
-
+ 
 h1.addEventListener("click", handleTitleClick); //handleTitleClick()이 아님!
 h1.addEventListener("mouseenter", handleMouseEnter);
 h1.addEventListener("mouseleave", handleMouseLeave);

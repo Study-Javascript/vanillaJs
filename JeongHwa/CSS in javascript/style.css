@@ -1,0 +1,15 @@
+body {
+    background-color: beige; 
+}
+h1 {
+    color : cornflowerblue;
+    transition: color .5s ease-in-out; /*0.5초 색변화*/
+}
+.clicked {
+    color:tomato;
+}
+
+.sexy-font { 
+    /*javascript에서 className을 바꾸면 폰트적용X*/
+    font-family : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
