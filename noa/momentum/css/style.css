@@ -35,13 +35,7 @@ h1{
   margin-left: 35%;
   margin-top: 15%;
 }
-
-#todo-form{
-  margin-top: 28%;
-  margin-left: 33%;
-}
-#todo-form input{
-  width:350px;
+input{
   height:30px;
   line-height: normal;
   border-top:none;
@@ -56,6 +50,31 @@ input::placeholder{
   color:azure;
   opacity: 0.6;
 }
+
+#login-form{
+  font-weight: 400;
+  margin-left: 33%;
+  margin-top: 20%;
+}
+#login-form input{
+  width:230px;
+  
+}
+#login-form button{
+  width:80px;
+  margin-top: 13px;
+  margin-left: 240px;
+  font-size: 20px;
+  color:aliceblue;
+}
+#todo-form{
+  margin-top: 28%;
+  margin-left: 33%;
+}
+#todo-form input{
+  width:350px;
+}
+
 ul{
   width:350px;
   margin-top: 34%;
@@ -70,9 +89,15 @@ ul{
   opacity: 0.7;
 }
 #weather{
-  float:right;
-  right: 10px;
+  margin-top: 70px;
+  margin-left: 20px;
 }
 button{
-  margin-left: 15px;
+  margin-left: 10px;
+  border:none;
+  box-shadow: none;
+  background-color: transparent;
+}
+button:hover{
+  cursor: pointer;
 }
