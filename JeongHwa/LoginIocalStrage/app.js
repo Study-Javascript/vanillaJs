@@ -38,4 +38,3 @@ if(savedUserName === null) {
    //paintGreetings(); //localStorage.getItem 사용시
 
 }
-
