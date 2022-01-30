@@ -9,7 +9,7 @@ setInterval(sayHello, 5000); //5000 = 5초
 
 //timeout : 한번 발생
 setTimeout(sayHello, 5000);
-*/
+*/ 
 
 function getClock() {
    const date = new Date;

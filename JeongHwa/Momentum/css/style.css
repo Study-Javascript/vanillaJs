@@ -1,3 +1,93 @@
 .hidden {
     display : none;
 }
+
+* {
+    font-family: sans-serif;
+    color: black;
+}
+body{
+    color: white;
+}
+
+img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -5;
+}
+
+#loginUser {
+    border: 2px solid gray;
+    background: transparent;
+    text-align: center;
+    width: 300px;
+    height: 30px;
+    margin: 2% 0;
+    
+}
+
+#login-form #loginBtn {
+    width: 80px;
+    height: 30px;
+    background: black;
+    border: bl;
+    color: white;
+    font-weight: bold;
+}
+
+#greeting{
+    font-size: 50pt;
+    text-align: center;
+    margin-top: 10%;
+}
+#todo-form, #login-form {
+    text-align: center;
+}
+#todo-form input{
+    border: none;
+    border-bottom:  2px dotted gray;
+    width: 400px;
+    height: 50px;
+    background: transparent;
+    text-align: center;
+}
+
+#todo-list {
+    position:absolute;
+    top: 45%;
+    left: 35%;
+} 
+
+#todo-list li {
+    margin: 2%;
+    width: 400px;
+}
+#todo-list>li>button {
+    margin-left: 3%;
+}
+
+input::placeholder {
+    font-size: 15pt;
+}
+
+#clock, #weather,#quote{
+    font-family: 'Gill Sans MT';
+    font-weight: bold;
+    position: absolute;
+    right:10px;
+    
+}
+#clock{
+    bottom:20px;
+}
+#weather{
+    bottom:20px;
+}
+#quote{
+    bottom: 70px;
+}
+
+
