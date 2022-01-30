@@ -15,6 +15,7 @@ function saveToDos() {
    //JSON.parse(값) : string값을 array로 
 }
 
+
 function deleteToDo(event) {
    const li = event.target.parentElement; // 클릭한 button의 li정보
    li.remove();

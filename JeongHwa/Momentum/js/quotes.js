@@ -12,7 +12,7 @@ const quotes = [
         author:"박명수",
     },
     {
-        quote:"성공은 1% 재능과 99%의 빽.",
+        quote:"성공은 1% 재능과 99%의 빽. ",
         author:"박명수",
     },
     {

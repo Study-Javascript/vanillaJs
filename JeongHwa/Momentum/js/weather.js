@@ -1,4 +1,4 @@
-const API_KEY = "7535f635065c9a09b71e91e72f4db9a2"; //Weather API 개인키
+const API_KEY = "7535f635065c9a09b71e91e72f4db9a2"; //Weather API 개인키 
 
 function onGeoOk(position) {
    const lat = position.coords.latitude;
@@ -17,6 +17,7 @@ function onGeoOk(position) {
 function onGroError() {
    alert("Can't find you. No weather for you.")
 }
+
 
 //getCurrentPosition(SuccessCallback, ErrorCallback)
 navigator.geolocation.getCurrentPosition(onGeoOk, onGroError); // 위치잡음.
